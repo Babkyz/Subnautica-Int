@@ -123,6 +123,22 @@
           "src/main/java/net/mcreator/namidessubnautica/block/SusususBlock.java"
         ]
       }
+    },
+    {
+      "name": "Sd",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/namides_subnautica/blockstates/sd.json",
+          "src/main/resources/assets/namides_subnautica/models/item/sd.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/SdBlock.java",
+          "src/main/resources/assets/namides_subnautica/models/block/sd.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -132,13 +148,13 @@
       "item_group.namides_subnautica.subnautica_na_mides": "Субнаутика НаМидес",
       "block.namides_subnautica.ocker": "Окер",
       "gui.namides_subnautica.walllock.label_nastiennyi_shkafchik": "Валл ллокер",
-      "block.namides_subnautica.wall_locker": "Валл ллокер",
-      "block.namides_subnautica.sususus": "Sususus"
+      "block.namides_subnautica.wall_locker": "Валл ллокер"
     },
     "en_us": {
       "item_group.namides_subnautica.subnautica_na_mides": "Subnautica NaMides",
       "block.namides_subnautica.ocker": "Ocker",
       "gui.namides_subnautica.walllock.label_nastiennyi_shkafchik": "Настенный шкафчик",
+      "block.namides_subnautica.sd": "Sd",
       "block.namides_subnautica.wall_locker": "Настенный шкафчик",
       "block.namides_subnautica.sususus": "Sususus"
     }

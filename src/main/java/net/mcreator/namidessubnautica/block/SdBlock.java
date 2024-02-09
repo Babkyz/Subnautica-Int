@@ -4,8 +4,8 @@ package net.mcreator.namidessubnautica.block;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 
-public class SusususBlock extends Block {
-	public SusususBlock() {
+public class SdBlock extends Block {
+	public SdBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
 	}
 

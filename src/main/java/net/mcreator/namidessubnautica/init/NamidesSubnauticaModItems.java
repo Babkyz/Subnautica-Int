@@ -18,6 +18,7 @@ public class NamidesSubnauticaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, NamidesSubnauticaMod.MODID);
 	public static final RegistryObject<Item> WALL_LOCKER = block(NamidesSubnauticaModBlocks.WALL_LOCKER);
 	public static final RegistryObject<Item> SUSUSUS = block(NamidesSubnauticaModBlocks.SUSUSUS);
+	public static final RegistryObject<Item> SD = block(NamidesSubnauticaModBlocks.SD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
