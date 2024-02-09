@@ -23,11 +23,11 @@
       "registry_name": "wall_locker",
       "metadata": {
         "files": [
-          "src/main/resources/assets/namides_subnautica/models/block/wall_locker.json",
-          "src/main/java/net/mcreator/namidessubnautica/block/WallLockerBlock.java",
           "src/main/java/net/mcreator/namidessubnautica/block/entity/WallLockerBlockEntity.java",
-          "src/main/resources/assets/namides_subnautica/blockstates/wall_locker.json",
-          "src/main/resources/assets/namides_subnautica/models/item/wall_locker.json"
+          "src/main/resources/assets/namides_subnautica/models/item/wall_locker.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/WallLockerBlock.java",
+          "src/main/resources/assets/namides_subnautica/models/block/wall_locker.json",
+          "src/main/resources/assets/namides_subnautica/blockstates/wall_locker.json"
         ]
       }
     },
@@ -64,16 +64,16 @@
       "registry_name": "ocker",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/namidessubnautica/block/entity/OckerTileEntity.java",
           "src/main/resources/assets/namides_subnautica/models/custom/ocker_particle.json",
-          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerTileRenderer.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/OckerBlock.java",
           "src/main/java/net/mcreator/namidessubnautica/block/display/OckerDisplayItem.java",
           "src/main/resources/assets/namides_subnautica/blockstates/ocker.json",
           "src/main/java/net/mcreator/namidessubnautica/block/model/OckerDisplayModel.java",
-          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerTileRenderer.java",
           "src/main/java/net/mcreator/namidessubnautica/block/model/OckerBlockModel.java",
-          "src/main/java/net/mcreator/namidessubnautica/block/OckerBlock.java",
-          "src/main/resources/assets/namides_subnautica/models/item/ocker.json"
+          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerDisplayItemRenderer.java",
+          "src/main/resources/assets/namides_subnautica/models/item/ocker.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/entity/OckerTileEntity.java"
         ]
       }
     },
@@ -138,6 +138,68 @@
           }
         ]
       }
+    },
+    {
+      "name": "WalllockThisGUIIsOpened",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walllock_this_gui_is_opened",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/procedures/WalllockThisGUIIsOpenedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WalllockThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walllock_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/procedures/WalllockThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -174,7 +236,8 @@
     "dependants": [],
     "mcreatorDependencies": [
       "mcreator_link",
-      "geckolib"
+      "geckolib",
+      "jei"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",

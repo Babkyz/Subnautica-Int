@@ -566,6 +566,12 @@
         }
       }
     ],
+    "onOpen": {
+      "name": "WalllockThisGUIIsOpened"
+    },
+    "onClosed": {
+      "name": "WalllockThisGUIIsClosed"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,
