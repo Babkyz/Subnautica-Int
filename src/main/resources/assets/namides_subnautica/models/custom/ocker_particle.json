@@ -1,6 +1,7 @@
+
 {
-  "parent": "namides_subnautica:displaysettings/model.item",
+  "parent": "namides_subnautica:displaysettings/model1_-_converted.item",
   "textures": {
-    "particle": "namides_subnautica:block/front"
+    "particle": "namides_subnautica:block/textu3452re"
   }
 }

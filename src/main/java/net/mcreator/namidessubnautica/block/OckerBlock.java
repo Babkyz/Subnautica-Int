@@ -50,7 +50,7 @@ import java.util.Collections;
 import io.netty.buffer.Unpooled;
 
 public class OckerBlock extends BaseEntityBlock implements EntityBlock {
-	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 1);
+	public static final IntegerProperty ANIMATION = IntegerProperty.create("animation", 0, (int) 2);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public OckerBlock() {

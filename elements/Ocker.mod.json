@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "animatedblock",
   "definition": {
-    "texture": "front",
+    "texture": "textu3452re",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -76,7 +76,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "animationCount": 1,
+    "animationCount": 2.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -136,7 +136,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "model.geo.json",
-    "displaySettings": "model.item.json"
+    "normal": "model1_-_converted.geo.json",
+    "displaySettings": "model1_-_converted.item.json"
   }
 }
