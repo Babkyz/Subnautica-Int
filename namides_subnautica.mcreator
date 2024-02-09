@@ -23,11 +23,11 @@
       "registry_name": "wall_locker",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/namidessubnautica/block/entity/WallLockerBlockEntity.java",
-          "src/main/resources/assets/namides_subnautica/models/item/wall_locker.json",
-          "src/main/java/net/mcreator/namidessubnautica/block/WallLockerBlock.java",
           "src/main/resources/assets/namides_subnautica/models/block/wall_locker.json",
-          "src/main/resources/assets/namides_subnautica/blockstates/wall_locker.json"
+          "src/main/java/net/mcreator/namidessubnautica/block/WallLockerBlock.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/entity/WallLockerBlockEntity.java",
+          "src/main/resources/assets/namides_subnautica/blockstates/wall_locker.json",
+          "src/main/resources/assets/namides_subnautica/models/item/wall_locker.json"
         ]
       }
     },
@@ -64,16 +64,16 @@
       "registry_name": "ocker",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/namidessubnautica/block/entity/OckerTileEntity.java",
           "src/main/resources/assets/namides_subnautica/models/custom/ocker_particle.json",
-          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerTileRenderer.java",
-          "src/main/java/net/mcreator/namidessubnautica/block/OckerBlock.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerDisplayItemRenderer.java",
           "src/main/java/net/mcreator/namidessubnautica/block/display/OckerDisplayItem.java",
           "src/main/resources/assets/namides_subnautica/blockstates/ocker.json",
           "src/main/java/net/mcreator/namidessubnautica/block/model/OckerDisplayModel.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerTileRenderer.java",
           "src/main/java/net/mcreator/namidessubnautica/block/model/OckerBlockModel.java",
-          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerDisplayItemRenderer.java",
-          "src/main/resources/assets/namides_subnautica/models/item/ocker.json",
-          "src/main/java/net/mcreator/namidessubnautica/block/entity/OckerTileEntity.java"
+          "src/main/java/net/mcreator/namidessubnautica/block/OckerBlock.java",
+          "src/main/resources/assets/namides_subnautica/models/item/ocker.json"
         ]
       }
     },
@@ -109,34 +109,33 @@
       }
     },
     {
-      "name": "Sususus",
-      "type": "block",
+      "name": "OckerPriShchielchkiePKMPoBloku",
+      "type": "procedure",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sususus",
+      "registry_name": "ocker_pri_shchielchkie_pkm_po_bloku",
       "metadata": {
         "files": [
-          "src/main/resources/assets/namides_subnautica/blockstates/sususus.json",
-          "src/main/resources/assets/namides_subnautica/models/item/sususus.json",
-          "src/main/resources/assets/namides_subnautica/models/block/sususus.json",
-          "src/main/java/net/mcreator/namidessubnautica/block/SusususBlock.java"
-        ]
-      }
-    },
-    {
-      "name": "Sd",
-      "type": "block",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sd",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/namides_subnautica/blockstates/sd.json",
-          "src/main/resources/assets/namides_subnautica/models/item/sd.json",
-          "src/main/java/net/mcreator/namidessubnautica/block/SdBlock.java",
-          "src/main/resources/assets/namides_subnautica/models/block/sd.json"
+          "src/main/java/net/mcreator/namidessubnautica/procedures/OckerPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -154,9 +153,7 @@
       "item_group.namides_subnautica.subnautica_na_mides": "Subnautica NaMides",
       "block.namides_subnautica.ocker": "Ocker",
       "gui.namides_subnautica.walllock.label_nastiennyi_shkafchik": "Настенный шкафчик",
-      "block.namides_subnautica.sd": "Sd",
-      "block.namides_subnautica.wall_locker": "Настенный шкафчик",
-      "block.namides_subnautica.sususus": "Sususus"
+      "block.namides_subnautica.wall_locker": "Настенный шкафчик"
     }
   },
   "foldersRoot": {
@@ -177,8 +174,7 @@
     "dependants": [],
     "mcreatorDependencies": [
       "mcreator_link",
-      "geckolib",
-      "jei"
+      "geckolib"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
