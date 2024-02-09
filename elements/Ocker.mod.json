@@ -2,7 +2,7 @@
   "_fv": 57,
   "_type": "animatedblock",
   "definition": {
-    "texture": "textu3452re",
+    "texture": "front",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -126,9 +126,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "OckerOnBlockRightClicked"
-    },
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

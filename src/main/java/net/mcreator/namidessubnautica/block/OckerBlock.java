@@ -38,7 +38,6 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.namidessubnautica.world.inventory.WalllockMenu;
-import net.mcreator.namidessubnautica.procedures.OckerOnBlockRightClickedProcedure;
 import net.mcreator.namidessubnautica.init.NamidesSubnauticaModBlockEntities;
 import net.mcreator.namidessubnautica.block.entity.OckerTileEntity;
 
@@ -128,15 +127,6 @@ public class OckerBlock extends BaseEntityBlock implements EntityBlock {
 				}
 			}, pos);
 		}
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-		double hitX = hit.getLocation().x;
-		double hitY = hit.getLocation().y;
-		double hitZ = hit.getLocation().z;
-		Direction direction = hit.getDirection();
-
-		OckerOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 

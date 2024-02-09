@@ -19,6 +19,6 @@ public class OckerBlockModel extends GeoModel<OckerTileEntity> {
 
 	@Override
 	public ResourceLocation getTextureResource(OckerTileEntity entity) {
-		return new ResourceLocation("namides_subnautica", "textures/block/textu3452re.png");
+		return new ResourceLocation("namides_subnautica", "textures/block/front.png");
 	}
 }

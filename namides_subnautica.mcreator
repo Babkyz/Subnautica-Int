@@ -78,15 +78,46 @@
       }
     },
     {
-      "name": "OckerOnBlockRightClicked",
+      "name": "WalllockThisGUIIsOpened",
       "type": "procedure",
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ocker_on_block_right_clicked",
+      "registry_name": "walllock_this_gui_is_opened",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/namidessubnautica/procedures/OckerOnBlockRightClickedProcedure.java"
+          "src/main/java/net/mcreator/namidessubnautica/procedures/WalllockThisGUIIsOpenedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WalllockThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walllock_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/procedures/WalllockThisGUIIsClosedProcedure.java"
         ],
         "dependencies": [
           {
