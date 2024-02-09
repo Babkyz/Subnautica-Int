@@ -136,7 +136,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "model1_-_converted.geo.json",
-    "displaySettings": "model1_-_converted.item.json"
+    "normal": "model.geo.json",
+    "displaySettings": "model.item.json"
   }
 }

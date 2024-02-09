@@ -20,7 +20,6 @@ public class NamidesSubnauticaModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.namides_subnautica.subnautica_na_mides")).icon(() -> new ItemStack(NamidesSubnauticaModBlocks.WALL_LOCKER.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(NamidesSubnauticaModBlocks.WALL_LOCKER.get().asItem());
 				tabData.accept(NamidesSubnauticaModBlocks.OCKER.get().asItem());
-				tabData.accept(NamidesSubnauticaModBlocks.SD.get().asItem());
 			})
 
 					.build());
