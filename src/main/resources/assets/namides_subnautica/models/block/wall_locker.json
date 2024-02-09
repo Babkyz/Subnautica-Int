@@ -1,0 +1,9 @@
+{
+  "parent": "namides_subnautica:custom/5402a57b1fabe513",
+  "textures": {
+    "all": "namides_subnautica:block/front",
+    "particle": "namides_subnautica:block/front",
+    "0": "namides_subnautica:block/texture"
+  },
+  "render_type": "solid"
+}

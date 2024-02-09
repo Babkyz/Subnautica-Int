@@ -1,0 +1,155 @@
+{
+  "mod_elements": [
+    {
+      "name": "Walllock",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walllock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/client/gui/WalllockScreen.java",
+          "src/main/java/net/mcreator/namidessubnautica/world/inventory/WalllockMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "WallLocker",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wall_locker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/block/entity/WallLockerBlockEntity.java",
+          "src/main/resources/assets/namides_subnautica/models/item/wall_locker.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/WallLockerBlock.java",
+          "src/main/resources/assets/namides_subnautica/models/block/wall_locker.json",
+          "src/main/resources/assets/namides_subnautica/blockstates/wall_locker.json"
+        ]
+      }
+    },
+    {
+      "name": "WalllockerR",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walllocker_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/namides_subnautica/recipes/wall_locker.json"
+        ]
+      }
+    },
+    {
+      "name": "SubnauticaNaMides",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "subnautica_na_mides",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Ocker",
+      "type": "animatedblock",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/namides_subnautica/models/custom/ocker_particle.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerTileRenderer.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/OckerBlock.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/display/OckerDisplayItem.java",
+          "src/main/resources/assets/namides_subnautica/blockstates/ocker.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/model/OckerDisplayModel.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/model/OckerBlockModel.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/renderer/OckerDisplayItemRenderer.java",
+          "src/main/resources/assets/namides_subnautica/models/item/ocker.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/entity/OckerTileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "OckerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocker_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/procedures/OckerOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "ru_ru": {
+      "item_group.namides_subnautica.subnautica_na_mides": "Субнаутика НаМидес",
+      "block.namides_subnautica.ocker": "Окер",
+      "gui.namides_subnautica.walllock.label_nastiennyi_shkafchik": "Валл ллокер",
+      "block.namides_subnautica.wall_locker": "Валл ллокер"
+    },
+    "en_us": {
+      "item_group.namides_subnautica.subnautica_na_mides": "Subnautica NaMides",
+      "block.namides_subnautica.ocker": "Ocker",
+      "gui.namides_subnautica.walllock.label_nastiennyi_shkafchik": "Настенный шкафчик",
+      "block.namides_subnautica.wall_locker": "Настенный шкафчик"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "namides_subnautica",
+    "modName": "NaMides Subnautica",
+    "version": "1.0.0",
+    "author": "opasn, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link",
+      "geckolib",
+      "jei"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.namidessubnautica",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

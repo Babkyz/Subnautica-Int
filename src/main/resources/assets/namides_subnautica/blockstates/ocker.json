@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "namides_subnautica:custom/ocker_particle"
+    },
+    "facing=east": {
+      "model": "namides_subnautica:custom/ocker_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "namides_subnautica:custom/ocker_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "namides_subnautica:custom/ocker_particle",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "namides_subnautica:item/inventory_locker"
+  },
+  "render_type": "translucent"
+}

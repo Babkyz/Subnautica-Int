@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "namides_subnautica:block/wall_locker"
+    },
+    "facing=east": {
+      "model": "namides_subnautica:block/wall_locker",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "namides_subnautica:block/wall_locker",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "namides_subnautica:block/wall_locker",
+      "y": 270
+    }
+  }
+}
