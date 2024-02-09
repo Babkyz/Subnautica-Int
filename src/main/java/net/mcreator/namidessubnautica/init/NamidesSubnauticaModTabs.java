@@ -19,7 +19,7 @@ public class NamidesSubnauticaModTabs {
 	public static final RegistryObject<CreativeModeTab> SUBNAUTICA_NA_MIDES = REGISTRY.register("subnautica_na_mides",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.namides_subnautica.subnautica_na_mides")).icon(() -> new ItemStack(NamidesSubnauticaModBlocks.WALL_LOCKER.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(NamidesSubnauticaModBlocks.WALL_LOCKER.get().asItem());
-				tabData.accept(NamidesSubnauticaModBlocks.OCKER.get().asItem());
+				tabData.accept(NamidesSubnauticaModBlocks.SUSUSUS.get().asItem());
 			})
 
 					.build());
