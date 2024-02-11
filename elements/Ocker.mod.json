@@ -157,7 +157,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "animationCount": 2.0,
+    "animationCount": 3.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -214,7 +214,7 @@
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64,
-    "normal": "model2.geo.json",
+    "normal": "model5.geo.json",
     "displaySettings": "model2.item.json"
   }
 }

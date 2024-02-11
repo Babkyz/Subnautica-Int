@@ -9,12 +9,12 @@ import net.mcreator.namidessubnautica.block.display.OckerDisplayItem;
 public class OckerDisplayModel extends GeoModel<OckerDisplayItem> {
 	@Override
 	public ResourceLocation getAnimationResource(OckerDisplayItem animatable) {
-		return new ResourceLocation("namides_subnautica", "animations/model2.animation.json");
+		return new ResourceLocation("namides_subnautica", "animations/model5.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(OckerDisplayItem animatable) {
-		return new ResourceLocation("namides_subnautica", "geo/model2.geo.json");
+		return new ResourceLocation("namides_subnautica", "geo/model5.geo.json");
 	}
 
 	@Override

@@ -569,6 +569,9 @@
     "onOpen": {
       "name": "WalllockThisGUIIsOpened"
     },
+    "onTick": {
+      "name": "WalllockWhileThisGUIIsOpenTick"
+    },
     "onClosed": {
       "name": "WalllockThisGUIIsClosed"
     },

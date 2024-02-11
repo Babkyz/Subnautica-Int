@@ -5,10 +5,10 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
-public class WalllockThisGUIIsOpenedProcedure {
+public class WalllockWhileThisGUIIsOpenTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
-			int _value = 1;
+			int _value = 3;
 			BlockPos _pos = BlockPos.containing(x, y, z);
 			BlockState _bs = world.getBlockState(_pos);
 			if (_bs.getBlock().getStateDefinition().getProperty("animation") instanceof IntegerProperty _integerProp && _integerProp.getPossibleValues().contains(_value))
