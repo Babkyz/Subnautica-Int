@@ -1,7 +1,9 @@
 {
   "mappings": {
     "default": {
-      "map": {},
+      "map": {
+        "1": "textu3452re"
+      },
       "name": "default"
     }
   }

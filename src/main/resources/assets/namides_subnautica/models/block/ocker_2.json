@@ -1,0 +1,9 @@
+{
+  "parent": "namides_subnautica:custom/model3",
+  "textures": {
+    "all": "namides_subnautica:block/textu3452re",
+    "particle": "namides_subnautica:block/textu3452re",
+    "missing": "namides_subnautica:block/textu3452re"
+  },
+  "render_type": "solid"
+}

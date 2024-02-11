@@ -1,6 +1,6 @@
 {
   "_fv": 57,
-  "_type": "animatedblock",
+  "_type": "block",
   "definition": {
     "texture": "textu3452re",
     "textureTop": "",
@@ -8,7 +8,8 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 0,
+    "renderType": 2,
+    "customModelName": "model3:default",
     "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -73,7 +74,7 @@
         "mz": 9.0,
         "Mx": 14.0,
         "My": 9.0,
-        "Mz": 16.0,
+        "Mz": 15.0,
         "subtract": false
       },
       {
@@ -113,7 +114,7 @@
         "subtract": false
       }
     ],
-    "name": "Ocker",
+    "name": "Ocker 2",
     "specialInformation": {
       "fixedValue": []
     },
@@ -157,7 +158,6 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "animationCount": 2.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -182,21 +182,14 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": false,
-    "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
-    },
-    "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
-    "hasInventory": true,
-    "guiBoundTo": "Walllock",
-    "openGUIOnRightClick": true,
-    "inventorySize": 30,
+    "isBonemealable": false,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "generateFeature": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -207,14 +200,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
-    "blocksToReplace": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64,
-    "normal": "model2.geo.json",
-    "displaySettings": "model2.item.json"
+    "maxGenerateHeight": 64
   }
 }

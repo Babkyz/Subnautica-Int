@@ -200,6 +200,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Ocker2",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocker_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/namides_subnautica/blockstates/ocker_2.json",
+          "src/main/resources/assets/namides_subnautica/models/item/ocker_2.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/Ocker2Block.java",
+          "src/main/resources/assets/namides_subnautica/models/block/ocker_2.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -209,12 +225,14 @@
       "item_group.namides_subnautica.subnautica_na_mides": "Субнаутика НаМидес",
       "block.namides_subnautica.ocker": "Окер",
       "gui.namides_subnautica.walllock.label_nastiennyi_shkafchik": "Валл ллокер",
+      "block.namides_subnautica.ocker_2": "Ocker 2",
       "block.namides_subnautica.wall_locker": "Валл ллокер"
     },
     "en_us": {
       "item_group.namides_subnautica.subnautica_na_mides": "Subnautica NaMides",
       "block.namides_subnautica.ocker": "Ocker",
       "gui.namides_subnautica.walllock.label_nastiennyi_shkafchik": "Настенный шкафчик",
+      "block.namides_subnautica.ocker_2": "Ocker 2",
       "block.namides_subnautica.wall_locker": "Настенный шкафчик"
     }
   },
