@@ -78,6 +78,68 @@
       }
     },
     {
+      "name": "OckerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocker_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/procedures/OckerOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OckerPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocker_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/procedures/OckerPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
       "name": "WalllockThisGUIIsOpened",
       "type": "procedure",
       "sortid": 6,
