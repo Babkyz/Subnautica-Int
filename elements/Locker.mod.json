@@ -1,6 +1,6 @@
 {
   "_fv": 57,
-  "_type": "block",
+  "_type": "animatedblock",
   "definition": {
     "texture": "textu3452re",
     "textureTop": "",
@@ -8,8 +8,7 @@
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "model3:default",
+    "renderType": 0,
     "rotationMode": 3,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,103 +17,22 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
-        "my": 1.0,
-        "mz": 9.0,
-        "Mx": 2.0,
-        "My": 23.0,
-        "Mz": 16.0,
-        "subtract": false
-      },
-      {
-        "mx": 14.0,
-        "my": 1.0,
-        "mz": 9.0,
-        "Mx": 16.0,
-        "My": 23.0,
-        "Mz": 16.0,
-        "subtract": false
-      },
-      {
-        "mx": 2.0,
-        "my": 1.0,
-        "mz": 15.0,
-        "Mx": 14.0,
-        "My": 23.0,
-        "Mz": 16.0,
-        "subtract": false
-      },
-      {
-        "mx": 1.0,
         "my": 0.0,
-        "mz": 9.0,
-        "Mx": 15.0,
-        "My": 1.0,
-        "Mz": 16.0,
-        "subtract": false
-      },
-      {
-        "mx": 2.0,
-        "my": 1.0,
-        "mz": 9.0,
-        "Mx": 14.0,
-        "My": 2.0,
-        "Mz": 15.0,
-        "subtract": false
-      },
-      {
-        "mx": 2.0,
-        "my": 8.0,
-        "mz": 9.0,
-        "Mx": 14.0,
-        "My": 9.0,
-        "Mz": 15.0,
-        "subtract": false
-      },
-      {
-        "mx": 2.0,
-        "my": 22.0,
-        "mz": 9.0,
-        "Mx": 14.0,
-        "My": 23.0,
-        "Mz": 15.0,
-        "subtract": false
-      },
-      {
-        "mx": 2.0,
-        "my": 15.0,
-        "mz": 9.0,
-        "Mx": 14.0,
+        "mz": 0.0,
+        "Mx": 16.0,
         "My": 16.0,
-        "Mz": 15.0,
-        "subtract": false
-      },
-      {
-        "mx": 1.0,
-        "my": 23.0,
-        "mz": 9.0,
-        "Mx": 15.0,
-        "My": 24.0,
         "Mz": 16.0,
-        "subtract": false
-      },
-      {
-        "mx": 1.0,
-        "my": 1.0,
-        "mz": 8.0,
-        "Mx": 15.0,
-        "My": 23.0,
-        "Mz": 9.0,
         "subtract": false
       }
     ],
-    "name": "Ocker 2",
+    "name": "Locker",
     "specialInformation": {
       "fixedValue": []
     },
@@ -158,6 +76,7 @@
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
+    "animationCount": 2.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
@@ -182,14 +101,21 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "isBonemealable": false,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "hasInventory": true,
+    "guiBoundTo": "Walllock",
+    "openGUIOnRightClick": true,
+    "inventorySize": 30,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
+    "generateFeature": false,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
@@ -200,17 +126,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
+    "onBlockPlayedBy": {
+      "name": "LockerBlockIsPlacedBy"
+    },
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "TAG:stone_ore_replaceables"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 64,
+    "normal": "model6.geo.json",
+    "displaySettings": "model2.item.json"
   }
 }

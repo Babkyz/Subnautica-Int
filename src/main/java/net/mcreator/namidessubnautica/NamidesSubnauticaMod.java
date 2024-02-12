@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.namidessubnautica.init.NamidesSubnauticaModTabs;
+import net.mcreator.namidessubnautica.init.NamidesSubnauticaModSounds;
 import net.mcreator.namidessubnautica.init.NamidesSubnauticaModMenus;
 import net.mcreator.namidessubnautica.init.NamidesSubnauticaModItems;
 import net.mcreator.namidessubnautica.init.NamidesSubnauticaModBlocks;
@@ -52,7 +53,7 @@ public class NamidesSubnauticaMod {
 	public NamidesSubnauticaMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		NamidesSubnauticaModSounds.REGISTRY.register(bus);
 		NamidesSubnauticaModBlocks.REGISTRY.register(bus);
 		NamidesSubnauticaModBlockEntities.REGISTRY.register(bus);
 		NamidesSubnauticaModItems.REGISTRY.register(bus);

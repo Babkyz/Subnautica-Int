@@ -8,6 +8,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.namidessubnautica.init.NamidesSubnauticaModBlockEntities;
 import net.mcreator.namidessubnautica.block.renderer.OckerTileRenderer;
+import net.mcreator.namidessubnautica.block.renderer.LockerTileRenderer;
 import net.mcreator.namidessubnautica.NamidesSubnauticaMod;
 
 @Mod.EventBusSubscriber(modid = NamidesSubnauticaMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -16,5 +17,6 @@ public class ClientListener {
 	@SubscribeEvent
 	public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerBlockEntityRenderer(NamidesSubnauticaModBlockEntities.OCKER.get(), context -> new OckerTileRenderer());
+		event.registerBlockEntityRenderer(NamidesSubnauticaModBlockEntities.LOCKER.get(), context -> new LockerTileRenderer());
 	}
 }

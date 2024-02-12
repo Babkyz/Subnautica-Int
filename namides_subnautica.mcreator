@@ -202,22 +202,6 @@
       }
     },
     {
-      "name": "Ocker2",
-      "type": "block",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ocker_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/namides_subnautica/blockstates/ocker_2.json",
-          "src/main/resources/assets/namides_subnautica/models/item/ocker_2.json",
-          "src/main/java/net/mcreator/namidessubnautica/block/Ocker2Block.java",
-          "src/main/resources/assets/namides_subnautica/models/block/ocker_2.json"
-        ]
-      }
-    },
-    {
       "name": "WalllockWhileThisGUIIsOpenTick",
       "type": "procedure",
       "sortid": 9,
@@ -247,23 +231,111 @@
           }
         ]
       }
+    },
+    {
+      "name": "Locker",
+      "type": "animatedblock",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/block/display/LockerDisplayItem.java",
+          "src/main/resources/assets/namides_subnautica/models/custom/locker_particle.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/LockerBlock.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/renderer/LockerDisplayItemRenderer.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/entity/LockerTileEntity.java",
+          "src/main/resources/assets/namides_subnautica/models/item/locker.json",
+          "src/main/java/net/mcreator/namidessubnautica/block/renderer/LockerTileRenderer.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/model/LockerDisplayModel.java",
+          "src/main/java/net/mcreator/namidessubnautica/block/model/LockerBlockModel.java",
+          "src/main/resources/assets/namides_subnautica/blockstates/locker.json"
+        ]
+      }
+    },
+    {
+      "name": "LockerBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "locker_block_is_placed_by",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/namidessubnautica/procedures/LockerBlockIsPlacedByProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "close",
+      "files": [
+        "close"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "open",
+      "files": [
+        "open"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "open2",
+      "files": [
+        "open2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "ru_ru": {
       "item_group.namides_subnautica.subnautica_na_mides": "Субнаутика НаМидес",
+      "subtitles.close": "",
       "block.namides_subnautica.ocker": "Окер",
+      "subtitles.open": "",
+      "block.namides_subnautica.locker": "Locker",
       "gui.namides_subnautica.walllock.label_nastiennyi_shkafchik": "Валл ллокер",
-      "block.namides_subnautica.ocker_2": "Ocker 2",
+      "subtitles.open2": "",
       "block.namides_subnautica.wall_locker": "Валл ллокер"
     },
     "en_us": {
       "item_group.namides_subnautica.subnautica_na_mides": "Subnautica NaMides",
+      "subtitles.close": "",
       "block.namides_subnautica.ocker": "Ocker",
+      "subtitles.open": "",
+      "block.namides_subnautica.locker": "Locker",
       "gui.namides_subnautica.walllock.label_nastiennyi_shkafchik": "Настенный шкафчик",
-      "block.namides_subnautica.ocker_2": "Ocker 2",
+      "subtitles.open2": "",
       "block.namides_subnautica.wall_locker": "Настенный шкафчик"
     }
   },

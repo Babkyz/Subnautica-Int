@@ -4,21 +4,21 @@ import software.bernie.geckolib.model.GeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
-import net.mcreator.namidessubnautica.block.display.OckerDisplayItem;
+import net.mcreator.namidessubnautica.block.display.LockerDisplayItem;
 
-public class OckerDisplayModel extends GeoModel<OckerDisplayItem> {
+public class LockerDisplayModel extends GeoModel<LockerDisplayItem> {
 	@Override
-	public ResourceLocation getAnimationResource(OckerDisplayItem animatable) {
+	public ResourceLocation getAnimationResource(LockerDisplayItem animatable) {
 		return new ResourceLocation("namides_subnautica", "animations/model6.animation.json");
 	}
 
 	@Override
-	public ResourceLocation getModelResource(OckerDisplayItem animatable) {
+	public ResourceLocation getModelResource(LockerDisplayItem animatable) {
 		return new ResourceLocation("namides_subnautica", "geo/model6.geo.json");
 	}
 
 	@Override
-	public ResourceLocation getTextureResource(OckerDisplayItem entity) {
+	public ResourceLocation getTextureResource(LockerDisplayItem entity) {
 		return new ResourceLocation("namides_subnautica", "textures/block/textu3452re.png");
 	}
 }

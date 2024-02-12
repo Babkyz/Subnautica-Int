@@ -1,0 +1,26 @@
+{
+  "close": {
+    "sounds": [
+      {
+        "name": "namides_subnautica:close",
+        "stream": false
+      }
+    ]
+  },
+  "open": {
+    "sounds": [
+      {
+        "name": "namides_subnautica:open",
+        "stream": false
+      }
+    ]
+  },
+  "open2": {
+    "sounds": [
+      {
+        "name": "namides_subnautica:open2",
+        "stream": false
+      }
+    ]
+  }
+}
